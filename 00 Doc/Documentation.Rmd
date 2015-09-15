@@ -1,5 +1,5 @@
 
-output: html_document
+
 
 ---
 Titanic Visualization
@@ -53,7 +53,7 @@ source("../02 Visualizations/Graph 5.R", echo = TRUE)
 
 ### Custom Graph
 
-In my custom graph, I wanted to know the relationship between age and survival rate. For men over the age of 20, the surivaval rate drastically decreases, whereas for women the rate remains relativly even no matter the age
+In my custom graph, I wanted to know the relationship between age and survival rate. For men over the age of 20, the surivaval rate drastically decreases, whereas for women the rate remains relativly even no matter the age. To make this graph, I used facetwrap for SEX to create distinct plots based on gender. I also changed the x axis to age.
 
 ```{r}
 source("../02 Visualizations/Custom Graph.R", echo = TRUE)
