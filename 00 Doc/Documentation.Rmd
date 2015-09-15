@@ -5,7 +5,7 @@
 Titanic Visualization
 ===
 
-In this document, I will explain the steps taken to create a graphical visualizaiton of the famous Titanic
+In this document, I will explain the steps taken to create a graphical visualizaiton of the famous sinking of the Titanic
 
 
 ###Graph 1
