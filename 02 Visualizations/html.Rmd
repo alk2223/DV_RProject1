@@ -1,0 +1,33 @@
+
+output: html_document
+
+---
+Titanic Visualization
+===
+
+In this document, I will explain the steps taken to create a graphical visualizaiton of the famous Titanic
+
+
+###Graph 1
+
+The first graph is a visualization of all of the passengers aboard the titanic. The graph displays each passenger related to thier age, how much they paid, and their gender. Because there is only one plot, there is no need for facets or more than one layer
+
+###Graph 2
+
+The second graph is the same as the first, but in the sql statement I removed any data where the sex is a null value. The graph shows the large proportion of cheap tickets bought by men, generally between the ages of 20 and 40.
+
+### Graph 3
+
+The third graph visualizes the relationship between those who survived and their wealth/gender. In this graph it was necessary to change the key, in the layer statement after color, from SEX to SURVIVED, but because survival is not a continous variable I had to change add an extra statement to convert it. It is clear that women were much more likely to survive and men who paid a high fare.
+
+### Graph 4
+
+Graph four is similar to graph three but using the facet function it has divided the passengers by passenger class. This graph shows that hardly any wealthy women died in the sinking of the titanic, but the proportion of men dying does not change much by passenger class
+
+### Graph 5
+
+Graph 5 is the same as graph four but the sql statement is changed to only include data from passengers whose age is less than or equal to 10. This graph shows that hardly any children in the higher tiered passenger classes perished. Unlike with the adults, there is hardly a distinction between female and male survival rates.
+
+### Custom Graph
+
+In my custom graph, I wanted to know the relationship between age and survival rate. For men over the age of 20, the surivaval rate drastically decreases, whereas for women the rate remains relativly even no matter the age
